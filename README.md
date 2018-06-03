@@ -37,9 +37,9 @@ Para poder correr y utilizar el proyecto lo primero que debemos hacer es seguir 
 4) Ahora que tenemos cargado nuestro base de datos podremos ejecutar nuestro ETL en Talend para que cargue la información. Para realizarlo, debemos abrir nuestro sistema Talend, y luego importar el proyecto (SSD/ETL/talend.project)
 
 5) Dentro de nuestro ETL, podremos encontrar que hay 3 jobs creados.
-	1- Generacion de Dimnensiones
-	2- Generación Fact Venta
-	3- Generación Fact Presupuesto
+	- Generacion de Dimnensiones
+	- Generación Fact Venta
+	- Generación Fact Presupuesto
 
 	Si deseamos procesarlo hay que ejecutarlo en ese orden a fin de conseguir un buen resultado.
 
