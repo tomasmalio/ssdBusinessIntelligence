@@ -12,25 +12,25 @@ Para poder correr y utilizar el proyecto lo primero que debemos hacer es seguir 
 	CREATE DATABASE ssd;
 
 2) Luego, debemos cargar información por default de toda la aplicación:
-	ciudades
-	paises
-	fechas
+	- ciudades
+	- paises
+	- fechas
 
 	Para ello debemos importar en nuestro servidor MySQL los archivos respectivamente:
-	SQL/ciudades.sql
-	SQL/paises.sql
-	SQL/fechas.sql
+	- SQL/ciudades.sql
+	- SQL/paises.sql
+	- SQL/fechas.sql
 
 3) Una vez que finalizamos el proceso de carga de información default del programa, vamos a pasar a crear nuestras tablas del modelo de dimensiones:
 	
-	cliente
-	categoria
-	proveedor
-	empleado
-	formaDeEnvio
-	producto
-	factventa
-	factpresupuesto
+	- cliente
+	- categoria
+	- proveedor
+	- empleado
+	- formaDeEnvio
+	- producto
+	- factventa
+	- factpresupuesto
 
 	Para realizar dicho procedimiento, debemos importar el archivo (SQL/sistema-de-soporte.sql) en nuestro MySQL.
 
