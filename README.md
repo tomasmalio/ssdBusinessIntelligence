@@ -1,6 +1,8 @@
 # Sistema de Soporte a las Decisiones - Trabajo Práctico BI
-*Profesor:* Pablo Sciolla
-*Universidad:* UADE
+
+**Profesor:** Pablo Sciolla
+
+**Universidad:** UADE
 
 Tomar la base de datos Neptuno (entregada en clase) en formato Access y desarrollar un modelo analítico que satisfaga las necesidades de una aplicación analítica planteada en el párrafo Aplicación.
 
