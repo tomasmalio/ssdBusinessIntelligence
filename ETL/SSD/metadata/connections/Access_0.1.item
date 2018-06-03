@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <TalendMetadata:DatabaseConnection xmi:id="_SGt4oFomEeifd9pCCKscQA" name="Access" id="_JUf1EFomEeifd9pCCKscQA" label="Access" dataPackage="_dAuvIFomEeifd9pCCKscQA" DatabaseType="Access" DriverClass="net.ucanaccess.jdbc.UcanaccessDriver" URL="jdbc:ucanaccess:///Users/tomasmalio/Desktop/SSD/TP_Integrador_Enunciado_y_Bases/Neptuno.mdb;jackcessOpener=org.talend.ucanaccess.encrypt.CryptCodecOpener;memory=false" Port="" Username="" Password="" ServerName="" DatasourceName="" FileFieldName="/Users/tomasmalio/Desktop/SSD/TP_Integrador_Enunciado_y_Bases/Neptuno.mdb" SID="" SqlSynthax="" StringQuote="" NullChar="" DbmsId="access_id" ProductId="ACCESS" AdditionalParams="jackcessOpener=org.talend.ucanaccess.encrypt.CryptCodecOpener;memory=false" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_SGt4oVomEeifd9pCCKscQA" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_SG43wFomEeifd9pCCKscQA" tag="package filter" value=""/>
+    <taggedValue xmi:id="_SG6s8FomEeifd9pCCKscQA" tag="Status" value=""/>
+    <taggedValue xmi:id="_SG6s8VomEeifd9pCCKscQA" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_SG6s8lomEeifd9pCCKscQA" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_SG6s81omEeifd9pCCKscQA" tag="Description" value=""/>
+    <taggedValue xmi:id="_SG6s9FomEeifd9pCCKscQA" tag="Author" value=""/>
+    <taggedValue xmi:id="_SG6s9VomEeifd9pCCKscQA" tag="otherParameter"/>
+    <taggedValue xmi:id="_SZj8IFomEeifd9pCCKscQA" tag="DB ProductName" value="Ucanaccess for access db(Jet) using hasqldb"/>
+    <taggedValue xmi:id="_SZj8IVomEeifd9pCCKscQA" tag="DB ProductVersion" value="V2000 [VERSION_4]"/>
+    <taggedValue xmi:id="_SZj8IlomEeifd9pCCKscQA" tag="DB IdentifierQuoteString" value="`"/>
+    <parameters xmi:id="_SGt4olomEeifd9pCCKscQA" key="CONN_PARA_KEY_USERNAME" value=""/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Schema xmi:id="_dAuvIFomEeifd9pCCKscQA" name="Access" dataManager="_SGt4oFomEeifd9pCCKscQA">
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_dAuvIVomEeifd9pCCKscQA" name="CATEGORÍAS" id="_WlVZAFomEeifd9pCCKscQA" label="CATEGORIAS" tableType="TABLE">
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvIlomEeifd9pCCKscQA" name="IDCATEGORÍA" label="IDCATEGORIA" length="32" sourceType="INTEGER" talendType="id_Long" key="true">
+        <initialValue xmi:id="_dAuvI1omEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvJFomEeifd9pCCKscQA" name="NOMBRECATEGORÍA" label="NOMBRECATEGORIA" length="15" sourceType="VARCHAR" talendType="id_String" key="true" nullable="false">
+        <initialValue xmi:id="_dAuvJVomEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvJlomEeifd9pCCKscQA" name="DESCRIPCIÓN" label="DESCRIPCION" length="16777216" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_dAuvJ1omEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvKFomEeifd9pCCKscQA" name="IMAGEN" label="IMAGEN" length="1073741824" sourceType="BLOB" talendType="id_String">
+        <initialValue xmi:id="_dAuvKVomEeifd9pCCKscQA"/>
+      </feature>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_dAuvKlomEeifd9pCCKscQA" name="EMPLEADOS" id="_WljbcFomEeifd9pCCKscQA" label="EMPLEADOS" tableType="TABLE">
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvK1omEeifd9pCCKscQA" name="IDEMPLEADO" label="IDEMPLEADO" length="32" sourceType="INTEGER" talendType="id_Long" key="true">
+        <initialValue xmi:id="_dAuvLFomEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvLVomEeifd9pCCKscQA" name="APELLIDOS" label="APELLIDOS" length="20" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_dAuvLlomEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvL1omEeifd9pCCKscQA" name="NOMBRE" label="NOMBRE" length="10" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_dAuvMFomEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvMVomEeifd9pCCKscQA" name="CARGO" label="CARGO" length="30" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_dAuvMlomEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvM1omEeifd9pCCKscQA" name="TRATAMIENTO" label="TRATAMIENTO" length="25" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_dAuvNFomEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvNVomEeifd9pCCKscQA" name="FECHANACIMIENTO" label="FECHANACIMIENTO" length="26" sourceType="TIMESTAMP" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_dAuvNlomEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvN1omEeifd9pCCKscQA" name="FECHACONTRATACIÓN" label="FECHACONTRATACION" length="26" sourceType="TIMESTAMP" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_dAuvOFomEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvOVomEeifd9pCCKscQA" name="DIRECCIÓN" label="DIRECCION" length="60" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_dAuvOlomEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvO1omEeifd9pCCKscQA" name="CIUDAD" label="CIUDAD" length="15" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_dAuvPFomEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvPVomEeifd9pCCKscQA" name="REGIÓN" label="REGION" length="15" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_dAuvPlomEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvP1omEeifd9pCCKscQA" name="CÓDPOSTAL" label="CODPOSTAL" length="10" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_dAuvQFomEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvQVomEeifd9pCCKscQA" name="PAÍS" label="PAIS" length="15" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_dAuvQlomEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvQ1omEeifd9pCCKscQA" name="TELDOMICILIO" label="TELDOMICILIO" length="24" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_dAuvRFomEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvRVomEeifd9pCCKscQA" name="EXTENSIÓN" label="EXTENSION" length="4" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_dAuvRlomEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvR1omEeifd9pCCKscQA" name="FOTO" label="FOTO" length="255" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_dAuvSFomEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvSVomEeifd9pCCKscQA" name="NOTAS" label="NOTAS" length="16777216" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_dAuvSlomEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvS1omEeifd9pCCKscQA" name="JEFE" label="JEFE" length="32" sourceType="INTEGER" talendType="id_Long">
+        <initialValue xmi:id="_dAuvTFomEeifd9pCCKscQA"/>
+      </feature>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_dAuvTVomEeifd9pCCKscQA" name="DETALLES DE PEDIDOS" id="_WlpiEFomEeifd9pCCKscQA" label="DETALLES_DE_PEDIDOS" tableType="TABLE">
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvTlomEeifd9pCCKscQA" name="IDPEDIDO" label="IDPEDIDO" length="32" sourceType="INTEGER" talendType="id_Long" key="true">
+        <initialValue xmi:id="_dAuvT1omEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvUFomEeifd9pCCKscQA" name="IDPRODUCTO" label="IDPRODUCTO" length="32" sourceType="INTEGER" talendType="id_Long" key="true" nullable="false">
+        <initialValue xmi:id="_dAuvUVomEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvUlomEeifd9pCCKscQA" name="PRECIOUNIDAD" label="PRECIOUNIDAD" length="100" precision="4" sourceType="DECIMAL" talendType="id_BigDecimal" nullable="false">
+        <initialValue xmi:id="_dAuvU1omEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvVFomEeifd9pCCKscQA" name="CANTIDAD" label="CANTIDAD" length="16" sourceType="SMALLINT" talendType="id_Short" nullable="false">
+        <initialValue xmi:id="_dAuvVVomEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvVlomEeifd9pCCKscQA" name="DESCUENTO" label="DESCUENTO" length="64" sourceType="DOUBLE" talendType="id_Double" nullable="false">
+        <initialValue xmi:id="_dAuvV1omEeifd9pCCKscQA"/>
+      </feature>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_dAuvWFomEeifd9pCCKscQA" name="COMPAÑÍAS DE ENVÍOS" id="_Wlr-UFomEeifd9pCCKscQA" label="COMPANIAS_DE_ENVIOS" tableType="TABLE">
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvWVomEeifd9pCCKscQA" name="IDCOMPAÑÍAENVÍOS" label="IDCOMPANIAENVIOS" length="32" sourceType="INTEGER" talendType="id_Long" key="true">
+        <initialValue xmi:id="_dAuvWlomEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvW1omEeifd9pCCKscQA" name="NOMBRECOMPAÑÍA" label="NOMBRECOMPANIA" length="40" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_dAuvXFomEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvXVomEeifd9pCCKscQA" name="TELÉFONO" label="TELEFONO" length="24" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_dAuvXlomEeifd9pCCKscQA"/>
+      </feature>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_dAuvX1omEeifd9pCCKscQA" name="CLIENTES" id="_WluakFomEeifd9pCCKscQA" label="CLIENTES" tableType="TABLE">
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvYFomEeifd9pCCKscQA" name="IDCLIENTE" label="IDCLIENTE" length="5" sourceType="VARCHAR" talendType="id_String" key="true">
+        <initialValue xmi:id="_dAuvYVomEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvYlomEeifd9pCCKscQA" name="NOMBRECOMPAÑÍA" label="NOMBRECOMPANIA" length="40" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_dAuvY1omEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvZFomEeifd9pCCKscQA" name="NOMBRECONTACTO" label="NOMBRECONTACTO" length="30" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_dAuvZVomEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvZlomEeifd9pCCKscQA" name="CARGOCONTACTO" label="CARGOCONTACTO" length="30" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_dAuvZ1omEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvaFomEeifd9pCCKscQA" name="DIRECCIÓN" label="DIRECCION" length="60" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_dAuvaVomEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvalomEeifd9pCCKscQA" name="CIUDAD" label="CIUDAD" length="15" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_dAuva1omEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvbFomEeifd9pCCKscQA" name="REGIÓN" label="REGION" length="15" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_dAuvbVomEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvblomEeifd9pCCKscQA" name="CÓDPOSTAL" label="CODPOSTAL" length="10" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_dAuvb1omEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvcFomEeifd9pCCKscQA" name="PAÍS" label="PAIS" length="15" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_dAuvcVomEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvclomEeifd9pCCKscQA" name="TELÉFONO" label="TELEFONO" length="24" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_dAuvc1omEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvdFomEeifd9pCCKscQA" name="FAX" label="FAX" length="24" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_dAuvdVomEeifd9pCCKscQA"/>
+      </feature>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_dAuvdlomEeifd9pCCKscQA" name="PEDIDOS" id="_Wmhr0FomEeifd9pCCKscQA" label="PEDIDOS" tableType="TABLE">
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvd1omEeifd9pCCKscQA" name="IDPEDIDO" label="IDPEDIDO" length="32" sourceType="INTEGER" talendType="id_Long" key="true">
+        <initialValue xmi:id="_dAuveFomEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuveVomEeifd9pCCKscQA" name="IDCLIENTE" label="IDCLIENTE" length="5" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_dAuvelomEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuve1omEeifd9pCCKscQA" name="IDEMPLEADO" label="IDEMPLEADO" length="32" sourceType="INTEGER" talendType="id_Long">
+        <initialValue xmi:id="_dAuvfFomEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvfVomEeifd9pCCKscQA" name="FECHAPEDIDO" label="FECHAPEDIDO" length="26" sourceType="TIMESTAMP" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_dAuvflomEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvf1omEeifd9pCCKscQA" name="FECHAENTREGA" label="FECHAENTREGA" length="26" sourceType="TIMESTAMP" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_dAuvgFomEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvgVomEeifd9pCCKscQA" name="FECHAENVÍO" label="FECHAENVIO" length="26" sourceType="TIMESTAMP" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_dAuvglomEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvg1omEeifd9pCCKscQA" name="FORMAENVÍO" label="FORMAENVIO" length="32" sourceType="INTEGER" talendType="id_Long">
+        <initialValue xmi:id="_dAuvhFomEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvhVomEeifd9pCCKscQA" name="CARGO" label="CARGO" length="100" precision="4" sourceType="DECIMAL" talendType="id_BigDecimal">
+        <initialValue xmi:id="_dAuvhlomEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvh1omEeifd9pCCKscQA" name="DESTINATARIO" label="DESTINATARIO" length="40" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_dAuviFomEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuviVomEeifd9pCCKscQA" name="DIRECCIÓNDESTINATARIO" label="DIRECCIONDESTINATARIO" length="60" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_dAuvilomEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvi1omEeifd9pCCKscQA" name="CIUDADDESTINATARIO" label="CIUDADDESTINATARIO" length="15" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_dAuvjFomEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvjVomEeifd9pCCKscQA" name="REGIÓNDESTINATARIO" label="REGIONDESTINATARIO" length="15" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_dAuvjlomEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvj1omEeifd9pCCKscQA" name="CÓDPOSTALDESTINATARIO" label="CODPOSTALDESTINATARIO" length="10" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_dAuvkFomEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvkVomEeifd9pCCKscQA" name="PAÍSDESTINATARIO" label="PAISDESTINATARIO" length="15" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_dAuvklomEeifd9pCCKscQA"/>
+      </feature>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_dAuvk1omEeifd9pCCKscQA" name="PRODUCTOS" id="_Wray4FomEeifd9pCCKscQA" label="PRODUCTOS" tableType="TABLE">
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvlFomEeifd9pCCKscQA" name="IDPRODUCTO" label="IDPRODUCTO" length="32" sourceType="INTEGER" talendType="id_Long" key="true">
+        <initialValue xmi:id="_dAuvlVomEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvllomEeifd9pCCKscQA" name="NOMBREPRODUCTO" label="NOMBREPRODUCTO" length="40" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_dAuvl1omEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvmFomEeifd9pCCKscQA" name="IDPROVEEDOR" label="IDPROVEEDOR" length="32" sourceType="INTEGER" talendType="id_Long">
+        <initialValue xmi:id="_dAuvmVomEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvmlomEeifd9pCCKscQA" name="IDCATEGORÍA" label="IDCATEGORIA" length="32" sourceType="INTEGER" talendType="id_Long">
+        <initialValue xmi:id="_dAuvm1omEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvnFomEeifd9pCCKscQA" name="CANTIDADPORUNIDAD" label="CANTIDADPORUNIDAD" length="20" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_dAuvnVomEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvnlomEeifd9pCCKscQA" name="PRECIOUNIDAD" label="PRECIOUNIDAD" length="100" precision="4" sourceType="DECIMAL" talendType="id_BigDecimal">
+        <initialValue xmi:id="_dAuvn1omEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvoFomEeifd9pCCKscQA" name="UNIDADESENEXISTENCIA" label="UNIDADESENEXISTENCIA" length="16" sourceType="SMALLINT" talendType="id_Short">
+        <initialValue xmi:id="_dAuvoVomEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvolomEeifd9pCCKscQA" name="UNIDADESENPEDIDO" label="UNIDADESENPEDIDO" length="16" sourceType="SMALLINT" talendType="id_Short">
+        <initialValue xmi:id="_dAuvo1omEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvpFomEeifd9pCCKscQA" name="NIVELNUEVOPEDIDO" label="NIVELNUEVOPEDIDO" length="32" sourceType="INTEGER" talendType="id_Long">
+        <initialValue xmi:id="_dAuvpVomEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvplomEeifd9pCCKscQA" name="SUSPENDIDO" label="SUSPENDIDO" sourceType="BOOLEAN" talendType="id_Boolean">
+        <initialValue xmi:id="_dAuvp1omEeifd9pCCKscQA"/>
+      </feature>
+    </ownedElement>
+    <ownedElement xsi:type="relational:TdTable" xmi:id="_dAuvqFomEeifd9pCCKscQA" name="PROVEEDORES" id="_WxdJcFomEeifd9pCCKscQA" label="PROVEEDORES" tableType="TABLE">
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvqVomEeifd9pCCKscQA" name="IDPROVEEDOR" label="IDPROVEEDOR" length="32" sourceType="INTEGER" talendType="id_Long" key="true">
+        <initialValue xmi:id="_dAuvqlomEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvq1omEeifd9pCCKscQA" name="NOMBRECOMPAÑÍA" label="NOMBRECOMPANIA" length="40" sourceType="VARCHAR" talendType="id_String" nullable="false">
+        <initialValue xmi:id="_dAuvrFomEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvrVomEeifd9pCCKscQA" name="NOMBRECONTACTO" label="NOMBRECONTACTO" length="30" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_dAuvrlomEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvr1omEeifd9pCCKscQA" name="CARGOCONTACTO" label="CARGOCONTACTO" length="30" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_dAuvsFomEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvsVomEeifd9pCCKscQA" name="DIRECCIÓN" label="DIRECCION" length="60" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_dAuvslomEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvs1omEeifd9pCCKscQA" name="CIUDAD" label="CIUDAD" length="15" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_dAuvtFomEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvtVomEeifd9pCCKscQA" name="REGIÓN" label="REGION" length="15" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_dAuvtlomEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvt1omEeifd9pCCKscQA" name="CÓDPOSTAL" label="CODPOSTAL" length="10" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_dAuvuFomEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvuVomEeifd9pCCKscQA" name="PAÍS" label="PAIS" length="15" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_dAuvulomEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvu1omEeifd9pCCKscQA" name="TELÉFONO" label="TELEFONO" length="24" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_dAuvvFomEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvvVomEeifd9pCCKscQA" name="FAX" label="FAX" length="24" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_dAuvvlomEeifd9pCCKscQA"/>
+      </feature>
+      <feature xsi:type="relational:TdColumn" xmi:id="_dAuvv1omEeifd9pCCKscQA" name="PÁGINAPRINCIPAL" label="PAGINAPRINCIPAL" length="16777216" sourceType="VARCHAR" talendType="id_String">
+        <initialValue xmi:id="_dAuvwFomEeifd9pCCKscQA"/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Schema>
+</xmi:XMI>

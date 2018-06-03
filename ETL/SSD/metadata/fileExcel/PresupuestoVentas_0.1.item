@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_hcAA0FcWEeifd9pCCKscQA" name="PresupuestoVentas" dataPackage="_hcAn4FcWEeifd9pCCKscQA" Server="Localhost 127.0.0.1" FilePath="/Users/tomasmalio/Desktop/SSD/TP_Integrador_Enunciado_y_Bases/Presupuesto de Ventas.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="PPTO 1997" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" selectAllSheets="true" sheetList="PPTO 1997:w&#xA;PPTO 1998:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+    <sheetColumns>H</sheetColumns>
+    <sheetColumns>I</sheetColumns>
+    <sheetColumns>J</sheetColumns>
+    <sheetColumns>K</sheetColumns>
+    <sheetColumns>L</sheetColumns>
+    <sheetColumns>M</sheetColumns>
+    <sheetColumns>N</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_hcAn4FcWEeifd9pCCKscQA" name="default" dataManager="_hcAA0FcWEeifd9pCCKscQA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_hcAn4VcWEeifd9pCCKscQA" id="_XzXSoFcWEeifd9pCCKscQA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hcAn4lcWEeifd9pCCKscQA" label="PaisDestinatario" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hcAn41cWEeifd9pCCKscQA" label="NombreCategoria" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hcAn5FcWEeifd9pCCKscQA" label="Wed_Jan_01_00_00_00_ART_1997" length="5" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hcAn5VcWEeifd9pCCKscQA" label="Sat_Feb_01_00_00_00_ART_1997" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hcAn5lcWEeifd9pCCKscQA" label="Sat_Mar_01_00_00_00_ART_1997" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hcAn51cWEeifd9pCCKscQA" label="Tue_Apr_01_00_00_00_ART_1997" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hcAn6FcWEeifd9pCCKscQA" label="Thu_May_01_00_00_00_ART_1997" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hcAn6VcWEeifd9pCCKscQA" label="Sun_Jun_01_00_00_00_ART_1997" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hcAn6lcWEeifd9pCCKscQA" label="Tue_Jul_01_00_00_00_ART_1997" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hcAn61cWEeifd9pCCKscQA" label="Fri_Aug_01_00_00_00_ART_1997" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hcAn7FcWEeifd9pCCKscQA" label="Mon_Sep_01_00_00_00_ART_1997" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hcAn7VcWEeifd9pCCKscQA" label="Wed_Oct_01_00_00_00_ART_1997" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hcAn7lcWEeifd9pCCKscQA" label="Sat_Nov_01_00_00_00_ART_1997" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hcAn71cWEeifd9pCCKscQA" label="Mon_Dec_01_00_00_00_ART_1997" length="4" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
