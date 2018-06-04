@@ -13,8 +13,10 @@ Tomar la base de datos Neptuno (entregada en clase) en formato Access y desarrol
 
 > Instalar Java JDK 1.8_151
 > Modificar TOS_DI-macosx-cocoa.app/Contents/Info.plist agregando la línea para formzar la utilización del JDK 1.8_151. Para poder acceder, en el archivo *TOS_DI-macosx-cocoa.app* hacer botón derecho, "Mostrar contenido del paquete"
+``` plist
 <key>Eclipse</key>
 <array>
 	<string>-vm</string><string>/Library/Java/JavaVirtualMachines/jdk1.8.0_151.jdk/Contents/Home/bin/java</string>
 	...
 </array>
+```
