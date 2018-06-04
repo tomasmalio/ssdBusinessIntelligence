@@ -37,7 +37,7 @@ Para poder solucionar dicho problema, lo que debemos hacer es lo siguiente:
 
 ## Errores con Power BI en Windows 8 (VirtualBox)
 
-1) Si a la hora de abrir el *Power BI* les aparece un mensaje que dice:
+1) Si a la hora de abrir el **Power BI** les aparece un mensaje que dice:
 
 > Solved: error value 'preferred'
 
