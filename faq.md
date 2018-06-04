@@ -1,5 +1,7 @@
 # Preguntas Frecuentes
 
+Talend Data Integration - [link de descarga](https://www.talend.com/products/data-integration/)
+
 ## Errores con **Talend Data Integration** en MacOS
 
 1) A la hora de instalar **Talend*, llegan al momento de las políticas de privacidad y no les permite presionar en Aceptar, se congela la pantalla deben hacer lo siguiente:
