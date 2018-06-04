@@ -8,9 +8,9 @@ Talend Data Integration - [link de descarga](https://info.talend.com/trial-talen
 
 * Instalar Java JDK 1.8_151
 * Modificar TOS_DI-macosx-cocoa.app/Contents/Info.plist agregando la línea para forzar la utilización del JDK 1.8_151. 
-* * Para poder acceder, en el archivo *TOS_DI-macosx-cocoa.app* hacer botón derecho 
-* * "Mostrar contenido del paquete"
-* * Editar el archivo Info.plist
+	* Para poder acceder, en el archivo *TOS_DI-macosx-cocoa.app* hacer botón derecho 
+	* "Mostrar contenido del paquete"
+	* Editar el archivo Info.plist
 
 ``` plist
 <key>Eclipse</key>
