@@ -1,6 +1,6 @@
 # Preguntas Frecuentes
 
-Talend Data Integration - [link de descarga](https://www.talend.com/products/data-integration/)
+Talend Data Integration - [link de descarga](https://info.talend.com/trial-talend-data-integration.html)
 
 ## Errores con **Talend Data Integration** en MacOS
 
