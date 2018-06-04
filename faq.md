@@ -22,7 +22,7 @@
 </array>
 ```
 
-2) Un error común a la hora de ejecutar el *Talend* es que que nos muestre el siguiente mensaje:
+2) Un error común a la hora de ejecutar el **Talend** es que que nos muestre el siguiente mensaje:
 
 > tos_di-macosx-cocoa executable launcher was unable to locate its companion shared library
 
