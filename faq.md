@@ -1,12 +1,6 @@
-# Sistema de Soporte a las Decisiones - Trabajo Práctico BI
+# Preguntas Frecuentes
 
-**Profesor:** Pablo Sciolla
-
-**Universidad:** UADE
-
-Tomar la base de datos Neptuno (entregada en clase) en formato Access y desarrollar un modelo analítico que satisfaga las necesidades de una aplicación analítica planteada en el párrafo Aplicación.
-
-## Errores comunes en MacOS
+## Errores con *Talend Data Integration* en MacOS
 
 1) A la hora de instalar *Talend*, llegan al momento de las políticas de privacidad y no les permite presionar en Aceptar, se congela la pantalla deben hacer lo siguiente:
 
@@ -24,3 +18,27 @@ Tomar la base de datos Neptuno (entregada en clase) en formato Access y desarrol
 </array>
 ```
 
+2) Un error común a la hora de ejecutar el *Talend* es que que nos muestre el siguiente mensaje:
+
+> tos_di-macosx-cocoa executable launcher was unable to locate its companion shared library
+
+Para poder solucionar dicho problema, lo que debemos hacer es lo siguiente:
+
+https://community.talend.com/t5/Installing-and-Upgrading/executable-launcher-was-unable-to-locate-its-companion-shared/td-p/25582
+
+* Abrir una terminal (Command + Espacio) y escribir Terminal
+* Luego cuando nos aparece la ventana negra, debemos escribir lo siguiente
+> nombre-de-mi-mac$ /path-to-your-talend-open-studio-folder$ xattr -d com.apple.quarantine *
+
+* Una vez ejecutado el comando intentar abrir el *Talend* para ver si funciona.
+
+
+## Errores con Power BI en Windows 8 (VirtualBox)
+
+1) Si a la hora de abrir el *Power BI* les aparece un mensaje que dice:
+
+> Solved: error value 'preferred'
+
+Deben realiar los siguientes pasos para solucionar las problemáticas:
+
+* Deben instalar en su Windows 8 el *MySQL Connector/Net 6.0.x for Microsoft Windows*. Es muy importante la versión para que no tengan problemas.
