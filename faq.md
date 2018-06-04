@@ -8,7 +8,7 @@
 
 1) A la hora de instalar **Talend**, llegan al momento de las políticas de privacidad y no les permite presionar en Aceptar, se congela la pantalla deben hacer lo siguiente:
 
-* Instalar Java JDK 1.8_151
+* Instalar [Java JDK 1.8_151](http://www.oracle.com/technetwork/java/javase/downloads/java-archive-javase8-2177648.html#thankYouDivjdk-8u151-oth-JPR)
 * Modificar TOS_DI-macosx-cocoa.app/Contents/Info.plist agregando la línea para forzar la utilización del JDK 1.8_151. 
 	* Para poder acceder, en el archivo *TOS_DI-macosx-cocoa.app* hacer botón derecho 
 	* "Mostrar contenido del paquete"
