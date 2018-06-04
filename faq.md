@@ -44,3 +44,30 @@ Para poder solucionar dicho problema, lo que debemos hacer es lo siguiente:
 Deben realizar los siguientes pasos para solucionar las problemáticas:
 
 * Deben instalar en su Windows 8 el **MySQL Connector/Net 6.0.x for Microsoft Windows**. Es muy importante la versión para que no tengan problemas.
+
+
+## Inconvenientes generales
+
+1) Si queremos conectarnos a una base de datos SQL localmente desde nuestra Máquina Virtual y no podemos, seguramente la solución sea la siguiente:
+
+* Ingresar en el archivo my.cnf generado por MySQL, ejemplo:
+> $ sudo vim /usr/local/etc/my.cnf
+* Dentro del archivo *my.cnf* deben modificar la dirección IP 127.0.0.1 por 0.0.0.0 de la siguiente manera:
+
+``` cnf
+# Default Homebrew MySQL server config
+[mysqld]
+# Only allow connections from localhost
+bind-address = 0.0.0.0
+```
+* Una vez modificado guardar y reiniciar el MySQL.
+> $ sudo mysql.server restart
+
+2) ¿Problemas de permisos para acceder a la base de datos local? Un problema muy común es el tema de permisos que tiene nuestra base de datos, entones lo que deberán hacer es crear un nuevo usuario y contraseña para darle permisos.
+
+* Primero ingresar en MySQL Server
+> $ mysql
+* Dentro de la termina del MySQL Server, deben ejecutar el siguiente comnado:
+> mysql> GRANT ALL PRIVILEGES ON *.* TO 'nombredeusuario'@'%' IDENTIFIED BY 'password';
+y como resultado debe aparecer un mensaje así:
+> Query OK, 0 rows affected, 1 warning (0.14 sec)
