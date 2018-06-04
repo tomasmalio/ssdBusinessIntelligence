@@ -8,11 +8,14 @@ Tomar la base de datos Neptuno (entregada en clase) en formato Access y desarrol
 
 ## Errores comunes en MacOS
 
-1) A la hora de instalar Talend, llegan al momento de las políticas de privacidad y no les permite presionar en Aceptar, se congela la pantalla deben hacer lo siguiente:
+1) A la hora de instalar *Talend*, llegan al momento de las políticas de privacidad y no les permite presionar en Aceptar, se congela la pantalla deben hacer lo siguiente:
 
+* Instalar Java JDK 1.8_151
+* Modificar TOS_DI-macosx-cocoa.app/Contents/Info.plist agregando la línea para forzar la utilización del JDK 1.8_151. 
+** Para poder acceder, en el archivo *TOS_DI-macosx-cocoa.app* hacer botón derecho 
+** "Mostrar contenido del paquete"
+** Editar el archivo Info.plist
 
-> Instalar Java JDK 1.8_151
-> Modificar TOS_DI-macosx-cocoa.app/Contents/Info.plist agregando la línea para formzar la utilización del JDK 1.8_151. Para poder acceder, en el archivo *TOS_DI-macosx-cocoa.app* hacer botón derecho, "Mostrar contenido del paquete"
 ``` plist
 <key>Eclipse</key>
 <array>
@@ -20,3 +23,4 @@ Tomar la base de datos Neptuno (entregada en clase) en formato Access y desarrol
 	...
 </array>
 ```
+
