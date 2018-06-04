@@ -1,6 +1,8 @@
 # Preguntas Frecuentes
 
-Talend Data Integration - [link de descarga](https://info.talend.com/trial-talend-data-integration.html)
+## Archivos a utilizar
+* [Talend Data Integration](https://info.talend.com/trial-talend-data-integration.html)
+* [Power BI](https://go.microsoft.com/fwlink/?LinkId=521662&clcid=0x409)
 
 ## Errores con **Talend Data Integration** en MacOS
 
@@ -32,7 +34,7 @@ https://community.talend.com/t5/Installing-and-Upgrading/executable-launcher-was
 * Luego cuando nos aparece la ventana negra, debemos escribir lo siguiente
 > nombre-de-mi-mac$ /path-to-your-talend-open-studio-folder$ xattr -d com.apple.quarantine *
 
-* Una vez ejecutado el comando intentar abrir el *Talend* para ver si funciona.
+* Una vez ejecutado el comando intentar abrir el **Talend** para ver si funciona.
 
 
 ## Errores con Power BI en Windows 8 (VirtualBox)
