@@ -71,3 +71,5 @@ bind-address = 0.0.0.0
 > mysql> GRANT ALL PRIVILEGES ON *.* TO 'nombredeusuario'@'%' IDENTIFIED BY 'password';
 y como resultado debe aparecer un mensaje así:
 > Query OK, 0 rows affected, 1 warning (0.14 sec)
+
+* Listo, prueben acceder y seguramente funcione ;)
