@@ -2,7 +2,7 @@
 
 ## Errores con *Talend Data Integration* en MacOS
 
-1) A la hora de instalar *Talend*, llegan al momento de las políticas de privacidad y no les permite presionar en Aceptar, se congela la pantalla deben hacer lo siguiente:
+1) A la hora de instalar **Talend*, llegan al momento de las políticas de privacidad y no les permite presionar en Aceptar, se congela la pantalla deben hacer lo siguiente:
 
 * Instalar Java JDK 1.8_151
 * Modificar TOS_DI-macosx-cocoa.app/Contents/Info.plist agregando la línea para forzar la utilización del JDK 1.8_151. 
@@ -41,4 +41,4 @@ https://community.talend.com/t5/Installing-and-Upgrading/executable-launcher-was
 
 Deben realiar los siguientes pasos para solucionar las problemáticas:
 
-* Deben instalar en su Windows 8 el *MySQL Connector/Net 6.0.x for Microsoft Windows*. Es muy importante la versión para que no tengan problemas.
+* Deben instalar en su Windows 8 el **MySQL Connector/Net 6.0.x for Microsoft Windows**. Es muy importante la versión para que no tengan problemas.
