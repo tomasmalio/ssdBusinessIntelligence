@@ -6,7 +6,7 @@
 
 ## Errores con **Talend Data Integration** en MacOS
 
-1) A la hora de instalar **Talend*, llegan al momento de las políticas de privacidad y no les permite presionar en Aceptar, se congela la pantalla deben hacer lo siguiente:
+1) A la hora de instalar **Talend**, llegan al momento de las políticas de privacidad y no les permite presionar en Aceptar, se congela la pantalla deben hacer lo siguiente:
 
 * Instalar Java JDK 1.8_151
 * Modificar TOS_DI-macosx-cocoa.app/Contents/Info.plist agregando la línea para forzar la utilización del JDK 1.8_151. 
