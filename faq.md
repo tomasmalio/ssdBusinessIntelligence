@@ -27,15 +27,13 @@
 > tos_di-macosx-cocoa executable launcher was unable to locate its companion shared library
 
 Para poder solucionar dicho problema, lo que debemos hacer es lo siguiente:
-
-https://community.talend.com/t5/Installing-and-Upgrading/executable-launcher-was-unable-to-locate-its-companion-shared/td-p/25582
-
 * Abrir una terminal (Command + Espacio) y escribir Terminal
 * Luego cuando nos aparece la ventana negra, debemos escribir lo siguiente
 > nombre-de-mi-mac$ /path-to-your-talend-open-studio-folder$ xattr -d com.apple.quarantine *
 
 * Una vez ejecutado el comando intentar abrir el **Talend** para ver si funciona.
 
+*Más información en [link](https://community.talend.com/t5/Installing-and-Upgrading/executable-launcher-was-unable-to-locate-its-companion-shared/td-p/25582)*
 
 ## Errores con Power BI en Windows 8 (VirtualBox)
 
