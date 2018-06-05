@@ -49,7 +49,5 @@ Para poder correr y utilizar el proyecto lo primero que debemos hacer es seguir 
 
 IMPORTANTE: la conexión de la base de datos fue realizada a ssd.local, si se ha cambiado la url debemos modificar la conexión.
 
-## Requisitos
-1) Power BI tiene conflictos con los nuevos MySQL Connector, a si que si nos encontramos con un error que dice: Solved: error value 'preferred' no desesperen, deben hacer lo siguiente: Borrar nuestro MySQL Connect que tinenen instalado e instalar *MySQL Connector/Net 6.0.x for Microsoft Windows*.
-
-Si necesitan más información les recomiendo el siguiente link: https://community.powerbi.com/t5/Integrations-with-Files-and/Trying-to-connect-to-MY-SQL-from-Power-BI/m-p/195482#M10931
+## Preguntas Frecuentes
+Si tienen dudas o consultas en (FAQ)[https://github.com/tomasmalio/ssdBusinessIntelligence/blob/master/faq.md] podrán encontrar más información sobre *errores* y situaciones extremenas
