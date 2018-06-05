@@ -14,34 +14,34 @@ Para poder correr y utilizar el proyecto lo primero que debemos hacer es seguir 
 	**CREATE DATABASE ssd;**
 
 2) Luego, debemos cargar información por default de toda la aplicación:
-	- ciudades
-	- paises
-	- fechas
+	* ciudades
+	* paises
+	* fechas
 
 	Para ello debemos importar en nuestro servidor MySQL los archivos respectivamente:
-	- SQL/ciudades.sql
-	- SQL/paises.sql
-	- SQL/fechas.sql
+	* SQL/ciudades.sql
+	* SQL/paises.sql
+	* SQL/fechas.sql
 
 3) Una vez que finalizamos el proceso de carga de información default del programa, vamos a pasar a crear nuestras tablas del modelo de dimensiones:
 	
-	- cliente
-	- categoria
-	- proveedor
-	- empleado
-	- formaDeEnvio
-	- producto
-	- factventa
-	- factpresupuesto
+	* cliente
+	* categoria
+	* proveedor
+	* empleado
+	* formaDeEnvio
+	* producto
+	* factventa
+	* factpresupuesto
 
 	Para realizar dicho procedimiento, debemos importar el archivo (*SQL/sistema-de-soporte.sql*) en nuestro MySQL.
 
 4) Ahora que tenemos cargado nuestro base de datos podremos ejecutar nuestro ETL en Talend para que cargue la información. Para realizarlo, debemos abrir nuestro sistema Talend, y luego importar el proyecto (*SSD/ETL/talend.project*)
 
 5) Dentro de nuestro ETL, podremos encontrar que hay 3 jobs creados.
-	- Generacion de Dimnensiones
-	- Generación Fact Venta
-	- Generación Fact Presupuesto
+	* Generacion de Dimnensiones
+	* Generación Fact Venta
+	* Generación Fact Presupuesto
 
 	Si deseamos procesarlo hay que ejecutarlo en ese orden a fin de conseguir un buen resultado.
 
