@@ -47,7 +47,7 @@ Para poder correr y utilizar el proyecto lo primero que debemos hacer es seguir 
 
 6) Finalizado el proceso de carga, ahora podemos abrir nuestro Power BI para visualizar la información generada. Para ello, debemos importar nuestro archivo pbit que se encuentra en **Visualizacion/ssd-version2.pbit**
 
-IMPORTANTE: la conexión de la base de datos fue realizada a ssd.local, si se ha cambiado la url debemos modificar la conexión.
+*IMPORTANTE: la conexión de la base de datos fue realizada a ssd.local, si se ha cambiado la url debemos modificar la conexión.*
 
 ## Preguntas Frecuentes
 Si tienen dudas o consultas en [FAQ](https://github.com/tomasmalio/ssdBusinessIntelligence/blob/master/faq.md) podrán encontrar más información sobre *errores* y situaciones extremenas
