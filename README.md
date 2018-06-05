@@ -6,7 +6,7 @@
 
 Tomar la base de datos Neptuno (entregada en clase) en formato Access y desarrollar un modelo analítico que satisfaga las necesidades de una aplicación analítica planteada en el párrafo Aplicación.
 
-## Comienzo
+## Pasos a seguir
 Para poder correr y utilizar el proyecto lo primero que debemos hacer es seguir los siguientes pasos:
 
 1) Debemos crear la base de datos (ssd) que se encuentra en la primer línea del archivo (*SQL/sistema-de-soporte.sql*) o ejecutar la siguiente sentencia:
