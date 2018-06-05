@@ -50,4 +50,4 @@ Para poder correr y utilizar el proyecto lo primero que debemos hacer es seguir 
 IMPORTANTE: la conexión de la base de datos fue realizada a ssd.local, si se ha cambiado la url debemos modificar la conexión.
 
 ## Preguntas Frecuentes
-Si tienen dudas o consultas en (FAQ)[https://github.com/tomasmalio/ssdBusinessIntelligence/blob/master/faq.md] podrán encontrar más información sobre *errores* y situaciones extremenas
+Si tienen dudas o consultas en [FAQ](https://github.com/tomasmalio/ssdBusinessIntelligence/blob/master/faq.md) podrán encontrar más información sobre *errores* y situaciones extremenas
