@@ -43,8 +43,7 @@ Para poder solucionar dicho problema, lo que debemos hacer es lo siguiente:
 
 Deben realizar los siguientes pasos para solucionar las problemáticas:
 
-* Deben instalar en su Windows 8 el **MySQL Connector/Net 6.0.x for Microsoft Windows**. Es muy importante la versión para que no tengan problemas.
-
+* Deben instalar en su Windows 8 el **MySQL Connector/Net 6.0.x for Microsoft Windows**, que lo pueden encontrar [acá](https://downloads.mysql.com/archives/c-net/). Es muy importante la versión para que no tengan problemas.
 
 ## Inconvenientes generales
 
