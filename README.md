@@ -36,7 +36,7 @@ Para poder correr y utilizar el proyecto lo primero que debemos hacer es seguir 
 
 	Para realizar dicho procedimiento, debemos importar el archivo (*SQL/sistema-de-soporte.sql*) en nuestro MySQL.
 
-4) Ahora que tenemos cargado nuestro base de datos podremos ejecutar nuestro ETL en Talend para que cargue la información. Para realizarlo, debemos abrir nuestro sistema Talend, y luego importar el proyecto (*SSD/ETL/talend.project*)
+4) Ahora que tenemos cargado nuestro base de datos podremos ejecutar nuestro ETL en Talend para que cargue la información. Para realizarlo, debemos abrir nuestro sistema Talend, y luego importar el proyecto (*SSD/ETL/*)
 
 5) Dentro de nuestro ETL, podremos encontrar que hay 3 jobs creados.
 	* Generacion de Dimnensiones
