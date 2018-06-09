@@ -36,7 +36,7 @@ Para poder correr y utilizar el proyecto lo primero que debemos hacer es seguir 
 
 	Para realizar dicho procedimiento, debemos importar el archivo (*SQL/sistema-de-soporte.sql*) en nuestro MySQL.
 
-4) Ahora que tenemos cargado nuestro base de datos podremos ejecutar nuestro ETL en Talend para que cargue la información. Para realizarlo, debemos abrir nuestro sistema Talend, y luego importar el proyecto llamado **SSD** que se encuentra en (*ETL/*) compuesto por 5 carpetas:
+4) Ahora que tenemos cargado nuestro base de datos podremos ejecutar nuestro ETL en Talend para que cargue la información. Para realizarlo, debemos abrir nuestro sistema Talend, y luego importar el proyecto llamado **SSD** que se encuentra en (*ETL/*) compuesto por 6 carpetas:
 	* .JETEmitters *(es una carpeta oculta)*
 	* SSD
 	* SSD_GENERACIONDIMENSIONES_0.1
