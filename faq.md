@@ -72,3 +72,7 @@ y como resultado debe aparecer un mensaje así:
 > Query OK, 0 rows affected, 1 warning (0.14 sec)
 
 * Listo, prueben acceder y seguramente funcione ;)
+
+3) A la hora de generar gráficos basados en consultas, si nuestras *Dimnesiones* o *Facts* tienen más atributos que se relacionan con una misma tabla (ejemplo: si tenemos varias fechas), lo que hay identificar cual de ellas es nuestro atributo principal. Para hacer eso, tenemos que acceder al **Relacionamiento entre Tablas** (que se puede acceder de mano izquierda, un icono como un árbol).
+Una vez ahí dentro, veremos nuestras relaciones y si queremos editarlas, tenemos que hacer click en **Administrar Relaciones**, un botón en la parte superior del programa.
+En ese momento, podremos acceder a la administración de relaciones e identificar cuales son los atributos principales. Si requerís más información, acceder al siguiente [link](https://exceleratorbi.com.au/multiple-relationships-between-tables-in-dax/)
